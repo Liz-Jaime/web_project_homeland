@@ -1,4 +1,8 @@
 .places {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
 }
 
 .place {
@@ -6,7 +10,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 36px;
 }
 
 .place__title {
@@ -17,6 +20,10 @@
   font-weight: 900;
   line-height: 35px;
   margin: 0;
+}
+
+.place__title_size_large {
+  width: 288px;
 }
 
 .place__artist {
@@ -68,6 +75,7 @@
   text-align: center;
   background-color: #0278fe;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -84,6 +92,13 @@
     line-height: 46px;
     padding-bottom: 46px;
   }
+
+  .place__title_size_large {
+    width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
   .place__artist-name {
     width: 295px;
     padding-bottom: 24px;
@@ -114,7 +129,6 @@
     grid-template-columns: 460px 484px;
     grid-template-rows: auto auto 1fr;
     gap: 0 40px;
-    padding-bottom: 50px;
   }
   .place__title {
     width: 460px;
@@ -122,6 +136,13 @@
     line-height: 76px;
     padding-bottom: 48px;
   }
+
+  .place__title_size_large {
+    width: 584px;
+    font-size: 72px;
+    line-height: 76px;
+  }
+
   .place__info-artist {
     align-self: end;
     padding-bottom: 48px;

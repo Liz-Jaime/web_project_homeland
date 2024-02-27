@@ -1,6 +1,9 @@
-.footer__copyright {
+.footer {
   text-align: center;
-  width: 191px;
+}
+
+.footer__copyright {
+  width: 100%;
   margin: 0;
   padding-top: 64px;
   padding-bottom: 24px;
