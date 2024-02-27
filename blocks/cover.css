@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.cover__background:hover {
+.cover:hover {
   opacity: 0.2;
 }
 
@@ -32,6 +32,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .cover__title {
   text-align: center;
   padding-top: 46px;
@@ -66,10 +67,8 @@
   border-radius: 4px;
   margin-top: 16px;
   cursor: pointer;
-}
-
-.cover__button:hover .cover {
-  opacity: 0.2;
+  border: none;
+  z-index: 3;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
