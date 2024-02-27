@@ -22,10 +22,6 @@
   margin: 0;
 }
 
-.place__title_size--large {
-  width: 288px;
-}
-
 .place__artist {
   width: 288px;
   color: #aaa;
@@ -93,12 +89,6 @@
     padding-bottom: 46px;
   }
 
-  .place__title_size--large {
-    width: 340px;
-    font-size: 42px;
-    line-height: 46px;
-  }
-
   .place__artist-name {
     width: 295px;
     padding-bottom: 24px;
@@ -135,12 +125,6 @@
     font-size: 72px;
     line-height: 76px;
     padding-bottom: 48px;
-  }
-
-  .place__title_size--large {
-    width: 584px;
-    font-size: 72px;
-    line-height: 76px;
   }
 
   .place__info-artist {
