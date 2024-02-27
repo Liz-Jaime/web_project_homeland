@@ -1,0 +1,38 @@
+.page {
+  margin: auto;
+  background-color: #2a2c2f;
+  width: 320px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.page__logo {
+  display: block;
+  width: 200px;
+  padding-top: 20px;
+  padding-bottom: 50.15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .page {
+    width: 768px;
+  }
+
+  .page__logo {
+    width: 270px;
+    padding-top: 34px;
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .page {
+    width: 1280px;
+  }
+  .page__logo {
+    width: 270px;
+    padding-top: 34px;
+    padding-bottom: 90px;
+  }
+}
